@@ -1,7 +1,8 @@
-package Task;
+package App.service;
 
-import Interface.Persistable;
-import Status.TaskStatus;
+import App.Interface.Persistable;
+import App.status.TaskStatus;
+import App.model.Task;
 
 import java.io.*;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package Status;
+package App.status;
 
 public enum TaskStatus {
     NEW("Новая"),

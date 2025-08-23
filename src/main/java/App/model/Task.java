@@ -1,7 +1,7 @@
-package Task;
+package App.model;
 
-import Interface.Printable;
-import Status.TaskStatus;
+import App.Interface.Printable;
+import App.status.TaskStatus;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

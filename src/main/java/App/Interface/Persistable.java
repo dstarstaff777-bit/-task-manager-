@@ -1,4 +1,4 @@
-package Interface;
+package App.Interface;
 
 import java.io.IOException;
 

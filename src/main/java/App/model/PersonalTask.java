@@ -1,6 +1,6 @@
-package Task;
+package App.model;
 
-import Status.TaskStatus;
+import App.status.TaskStatus;
 
 public class PersonalTask extends Task {
     private int priority;

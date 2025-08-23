@@ -1,8 +1,6 @@
-package Task;
+package App.model;
 
-import Status.TaskStatus;
-
-import java.time.LocalDateTime;
+import App.status.TaskStatus;
 
 public class WorkTask extends Task{
     private String projectName;
