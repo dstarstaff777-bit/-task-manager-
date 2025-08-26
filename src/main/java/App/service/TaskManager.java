@@ -56,6 +56,9 @@ public class TaskManager implements Persistable {
             System.out.println("-------------");
         }
     }
+    public List<Task> getAllTasks() {
+         return new ArrayList<>(tasks.values());
+    }
     public Task getTaskById(int id) {
          return tasks.get(id);
     }
