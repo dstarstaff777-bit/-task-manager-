@@ -1,4 +1,4 @@
-package App;
+package App.service;
 
 import App.status.TaskStatus;
 import App.model.PersonalTask;
@@ -9,11 +9,13 @@ import App.service.TaskManager;
 import java.util.Scanner;
 
 public class Launch {
-    public static void main(String[] args) {
-        TaskManager taskManager = new TaskManager();
-        Scanner scanner = new Scanner(System.in);
-        boolean running = true;
+    TaskManager taskManager = new TaskManager();
+    Scanner scanner = new Scanner(System.in);
 
+
+    public void start() {
+
+        boolean running = true;
         while (running) {
             System.out.println("Выберите действие:");
             System.out.println("1. Добавить задачу");
